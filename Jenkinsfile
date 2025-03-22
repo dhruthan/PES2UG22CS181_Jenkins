@@ -14,6 +14,7 @@ pipeline {
             steps {
                 script {
                     sh './PES2UG22CS181-1'
+                    sh './errorfileman
                 }
             }
         }
